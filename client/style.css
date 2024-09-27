@@ -1,0 +1,152 @@
+/* Root Styles CSS */
+:root {
+  background-color: rgba(228, 212, 255, 0.911);
+  font-family: Avenir, Helvetica, sans-serif;
+  color: rgb(81, 11, 95);
+}
+
+/* Header CSS */
+.header-container {
+  overflow: hidden;
+  padding: 20px 10px;
+  padding-bottom: 60px;
+}
+
+.header-left {
+  float: left;
+  height: 100px;
+  width: auto;
+  display: flex;
+}
+
+.header-left img {
+  padding-top: 8px;
+  height: 100px;
+}
+
+.header-left h1 {
+  float: right;
+  font-size: 45px;
+  
+}
+
+.header-right {
+  float: right;
+  padding-top:30px;
+  padding-right:10px;
+}
+
+.header-right button {
+background-color: white;
+border: solid;
+border-width: 3px;
+border-color: rgb(3, 7, 89);
+border-radius: 0.1rem;
+border-radius: 16px;
+box-sizing: border-box;
+color:  rgb(3, 7, 89);
+cursor: pointer;
+padding: 15px 16px;
+text-align: center;
+text-transform: uppercase;
+touch-action: manipulation;
+width: 80px;
+}
+
+/* Home page CSS */
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 300px;
+  height: 450px;
+  background: transparent;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(3, 7, 89);
+  border-radius: 0.3rem;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.057);
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-right: 40px;
+  margin-bottom: 60px;
+}
+
+.card img {
+  height: 100%;
+}
+
+.top-container {
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* background-position: center center; */
+  height: 300px;
+}
+
+.bottom-container {
+  /* margin-top: 20px; */
+  margin-left: 10px;
+  /* margin-bottom: 20px; */
+}
+
+.bottom-container h3 {
+  margin-top: 10px;
+  margin-bottom: 6px;
+}
+
+.bottom-container p {
+  margin: 10px 0px 10px 0px;
+}
+
+.bottom-container a {
+  color: rgb(228, 16, 133);
+  text-decoration: none;
+  margin: 10px 0px 10px 0px;
+}
+
+/* 404 Page CSS */
+
+.fof-container{
+  display: table;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+
+.fof {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.fof h1 {
+  font-size: 50px;
+  display: inline-block;
+  padding-right: 12px;
+  animation: type .6s alternate infinite;
+}
+
+/* Detail Page CSS*/
+
+.album-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-container {
+  padding-left: 100px;
+  width: 40vw;
+}
+
+.image-container img {
+  width: 80%;
+}
+
+.album-details {
+  width: 45vw;
+}
