@@ -2,7 +2,6 @@ import { pool } from '../config/database.js'
 
 
 const getAlbums = async (req, res) => {
-    console.log("test")
     try {
         const results = await pool.query('SELECT * FROM albums ORDER BY id ASC')
         res.status(200).json(results.rows)
