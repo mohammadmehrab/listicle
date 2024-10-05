@@ -1,4 +1,5 @@
 import express from 'express'
+import './config/dotenv.js'
 import albumsRouter from './routes/albums.js'
 
 const app = express()

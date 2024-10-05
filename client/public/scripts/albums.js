@@ -13,8 +13,7 @@ const renderAlbums = async () => {
             const bottomContainer = document.createElement('div')
             bottomContainer.classList.add('bottom-container')
 
-            topContainer.style.backgroundImage = `url(${album.albumCover})`
-
+            topContainer.style.backgroundImage = `url(${album.albumcover})`
             const title = document.createElement('h3')
             title.textContent = album.title
             bottomContainer.appendChild(title)

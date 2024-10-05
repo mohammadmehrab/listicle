@@ -7,10 +7,10 @@ const renderAlbum = async () => {
     let album
     album = data.find(album => album.id === requestedID)  
     if (album) {
-        document.getElementById('albumCover').src = album.albumCover
+        document.getElementById('albumCover').src = album.albumcover
         document.getElementById('title').textContent = album.title
         document.getElementById('artist').textContent = 'By ' + album.artist
-        document.getElementById('releaseYear').textContent = 'Released: ' + album.releaseYear
+        document.getElementById('releaseYear').textContent = 'Released: ' + album.releaseyear
         document.getElementById('genre').textContent = 'Genre: ' + album.genre
         document.title = `Listicle: Favorite Albums - ${album.title}`
     }
